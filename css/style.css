@@ -262,10 +262,24 @@ footer {
 .logo {
     display: flex;
     align-items: center;
+    color: #ffffff;
 }
 
 .logo img {
     display: block;
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    transition: opacity 0.2s ease;
+}
+
+.logo:hover img {
+    opacity: 0.75;
+}
+.logo {
+    color: #ffffff;
+}
+
+.logo img {
+    filter: invert(1);
 }
