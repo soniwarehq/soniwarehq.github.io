@@ -1,33 +1,38 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 512 512"
-  width="512"
-  height="512"
-  fill="none"
->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     fill="none">
+
+  <!-- SONIWARE SW MONOGRAM -->
+
+  <!-- Upper S / outer form -->
   <path
-    d="
-      M 150 150
-      H 362
-
-      C 390 150 404 168 390 190
-      L 122 322
-
-      C 98 334 104 362 132 362
-      H 184
-
-      L 256 286
-      L 328 362
-      H 380
-
-      C 408 362 414 334 390 322
-      L 122 190
-
-      C 108 168 122 150 150 150
-    "
-    stroke="#000000"
+    d="M150 150
+       H362
+       C386 150 400 163 400 182
+       C400 198 390 211 372 220
+       L140 334
+       C122 343 112 351 112 362
+       C112 375 124 384 142 384
+       H184"
+    stroke="currentColor"
     stroke-width="32"
     stroke-linecap="round"
-    stroke-linejoin="round"
-  />
+    stroke-linejoin="round"/>
+
+  <!-- Lower W -->
+  <path
+    d="M184 384
+       L256 304
+       L328 384
+       H370
+       C388 384 400 375 400 362
+       C400 351 390 343 372 334
+       L140 220
+       C122 211 112 198 112 182
+       C112 163 126 150 150 150"
+    stroke="currentColor"
+    stroke-width="32"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
 </svg>
